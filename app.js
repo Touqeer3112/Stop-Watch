@@ -1,7 +1,7 @@
-var scnd = document.querySelector ("#second");
-var mint = document.querySelector ("#mint");
+var scnd = document.getElementById ("second");
+var mint = document.getElementById ("mint");
 var min=0
-var hours = document.querySelector ("#hours");
+var hours = document.getElementById ("hours");
 var hrs=0
 
 var count =0;
@@ -33,3 +33,7 @@ function resetTimer(){
     hours.innerHTML="00"
     clearInterval(timer)
 }
+
+
+
+var scnd 
